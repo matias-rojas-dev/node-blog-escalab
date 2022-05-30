@@ -2,6 +2,8 @@
 
   # Proyecto final Node! <img src="https://user-images.githubusercontent.com/69127196/134607262-81c070d6-e5a8-4ae0-9c6d-cda2b6a272af.png" height="40" width="40" >
 
+</div>
+
 <strong>Instrucciones</strong>
 1) Construir la capa del servidor con Node.js y Express.js framework, basado en la arquitectura limpia y principios de responsabilidad visto en el curso 20%
 2) Construir y conectarlo con una capa Frontend con React.js (Opcional). Tiene un extra de un 7%  aparte a los demás puntos por si lo quieren ocupar
@@ -21,5 +23,4 @@
 17) Aplicar validaciones de parámetros de la solicitud con express-validator middleware 3%
 18) Hacer el deploy en la plataforma cloud de heroku, el backend es (Obligatorio) y el frontend con react.js (Opcional) 2%
 
-</div>
 
