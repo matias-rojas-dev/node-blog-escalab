@@ -1,0 +1,39 @@
+{
+    "definition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "Blog API",
+            "version": "1.0.0",
+            "description": "Node with Express API",
+            "termsOfService": "http://example.com",
+            "contact": {
+                "name": "API Support",
+                "url": "http://example.com/support",
+                "email": "maigrojas.dev@gmail.com"
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000/api",
+                    "description": "My API Documentation"
+                },
+                {
+                    "url": "http://localhost:3000/api",
+                    "description": "Local server"
+                }
+            ],
+            "security": [{"ApiKey": []}],
+            "components": {
+                "securitySchemes": {
+                    "ApiKey": {
+                        "type": "apiKey",
+                        "in": "header",
+                        "name": "authtoken"
+                    }
+                }
+            }
+        }
+    },
+    "apis": [
+        "./routes/*.js"
+    ]
+}
